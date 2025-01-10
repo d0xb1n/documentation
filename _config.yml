@@ -1,4 +1,6 @@
 url: "https://d0xb1n.github.io/documentation"  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: ""      # place folder name if the site is served in a subfolder
 exclude: [README.md, Gemfile.lock]
+
+theme: jekyll-theme-minimal
 github_pages: true
