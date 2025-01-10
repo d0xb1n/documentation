@@ -2,5 +2,7 @@ url: "d0xb1n.github.io/"  # the base hostname and protocol for your site, e.g. h
 baseurl: "/documentation"      # place folder name if the site is served in a subfolder
 exclude: [README.md, Gemfile.lock]
 
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 github_pages: true
