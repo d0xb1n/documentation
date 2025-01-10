@@ -1,4 +1,4 @@
-domain: d0xb1n.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://d0xb1n.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /      # place folder name if the site is served in a subfolder
-exclude: [README.md, Gemfile, Gemfile.lock]
+url: "https://d0xb1n.github.io/documentation"  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: ""      # place folder name if the site is served in a subfolder
+exclude: [README.md, Gemfile.lock]
+github_pages: true
