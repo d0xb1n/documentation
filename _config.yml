@@ -1,4 +1,4 @@
-url: "https://d0xb1n.github.io/documentation"  # the base hostname and protocol for your site, e.g. http://example.com
+url: "d0xb1n.github.io/"  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: "/documentation"      # place folder name if the site is served in a subfolder
 exclude: [README.md, Gemfile.lock]
 
