@@ -5,9 +5,10 @@
 
 $greeny: #B9D8C2;
 $bluey: #9AC2C9;
-$graey: #595e61;
+$graey: #425967;
 $browny: #434450;
 $yellowy: #FFCB47;
+$highlight: #9d9ac92f;
 
 body {
     background: #3e404c;
@@ -64,13 +65,22 @@ body {
     }
 }
 
-code {
-    font-family: Monaco, monospace;
-    font-size: 1em;
-    line-height: 100%;
-    background-color: $browny;
-    padding: 0.3em;
-    letter-spacing: -0.05em;
-    word-break: normal;
-    border-radius: 5px;
+pre:has(code) {
+    background-color: $highlight;
+    position: relative;
+    margin: 5px 0 ;
+    padding: 1.75rem 0 1.75rem 1rem;
+    border-radius: 1em;
+
+    pre:has(code) button{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
 }
+p code {
+    padding: 0.3em;
+    border-radius: 0.4em;
+    background-color: $highlight;
+}
+  
