@@ -1,4 +1,76 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "main";
+
+$greeny: #B9D8C2;
+$bluey: #9AC2C9;
+$graey: #595e61;
+$browny: #434450;
+$yellowy: #FFCB47;
+
+body {
+    background: #3e404c;
+}
+
+.navigation {
+    display: block;
+    padding: 1em;
+    margin: 2em;
+    background-color: $graey;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    li {
+        display: inline;
+        list-style: none;
+        a {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 2em;
+            color: white;
+            padding: 1em;
+        }
+        a:hover {
+            background-color: rgba(128, 128, 128, 0.231);
+        }
+    }
+}
+
+.content {
+    width: 80%;
+    padding: 1em;
+    margin: auto;
+    border-radius: 1em;
+    background-color: rgba(41, 57, 74, 0.233);
+
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog-posts {
+    li {
+        a {
+            font-size: 1.3em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 0.8em;
+        }
+    }
+}
+
+code {
+    font-family: Monaco, monospace;
+    font-size: 1em;
+    line-height: 100%;
+    background-color: $browny;
+    padding: 0.3em;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    border-radius: 5px;
+}
